@@ -1,0 +1,86 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+input[type="date"]{
+    width: 200px;
+}
+.add-your-date{
+    margin-bottom: 5px;
+}
+input[type="submit"]{
+    background-color: green;
+    border: none;
+    height: 21px;
+    border-radius: 3px;
+}
+.input-manipulators{
+    display: flex;
+    align-items: flex-end;
+}
+.addtask, .rmv-day{
+    height: fit-content;
+    width: fit-content;
+    background-color: green;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    margin-left: 8px;
+    align-self: first baseline;
+    margin-top: 18px;
+}
+.rmv-day{
+    width: 30px;
+    padding-left: 6px;
+}
+.showing-day{
+    margin-bottom: 5px;
+}
+.toadd{
+    display: flex;
+    margin-top: 7px;
+}
+.remove-form{
+    background-color: green;
+    border: none;
+    height: 22px;
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+.task-container{
+    margin: 8px 0;
+}
+li{
+    font-size: 1.2rem;
+}
+.task1{
+    display: flex;
+    margin: 5px 0;
+}
+input[type="checkbox"]{
+    margin: 0;
+    margin-left: 8px;
+    width: 18px;
+    margin-top: 3px;
+}
+.remove-task{
+    background-color: red;
+    border: none;
+    height: 21px;
+    width: 21px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+button:hover , input:hover{
+    cursor: pointer;
+}
+span{
+    width: 190px;
+}
+input[type="checkbox"]{
+    margin-top: 0;
+    width: 21px;
+}
+.submit-task, .task{
+    margin-left: 8px;
+}
